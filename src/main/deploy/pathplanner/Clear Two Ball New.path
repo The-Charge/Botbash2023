@@ -1,0 +1,123 @@
+{
+  "waypoints": [
+    {
+      "anchorPoint": {
+        "x": 1.9578837445834658,
+        "y": 5.054472419929148
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.9578837445834685,
+        "y": 5.054472419929148
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": true,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [
+          "MoveArmScore",
+          "OpenClaw"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 6.0,
+        "y": 4.6
+      },
+      "prevControl": {
+        "x": 5.326708512236955,
+        "y": 4.6
+      },
+      "nextControl": {
+        "x": 5.326708512236955,
+        "y": 4.6
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": true,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [
+          "OpenClaw",
+          "MoveArmFrontLow",
+          "CloseClaw"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 10.0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 1.9693192025471065,
+        "y": 4.55
+      },
+      "prevControl": {
+        "x": 2.347925591195808,
+        "y": 4.55
+      },
+      "nextControl": {
+        "x": 2.347925591195808,
+        "y": 4.55
+      },
+      "holonomicAngle": 0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": true,
+      "isStopPoint": true,
+      "stopEvent": {
+        "names": [
+          "MoveArmScore",
+          "OpenClaw"
+        ],
+        "executionBehavior": "sequential",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 4.873925525311821,
+        "y": 4.528441353601679
+      },
+      "prevControl": {
+        "x": 4.673123069504079,
+        "y": 4.528441353601679
+      },
+      "nextControl": null,
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    }
+  ],
+  "markers": [
+    {
+      "position": 0.05,
+      "names": [
+        "CloseClaw",
+        "MoveArmFrontLow"
+      ]
+    },
+    {
+      "position": 2.05,
+      "names": [
+        "MoveArmScore"
+      ]
+    }
+  ]
+}
